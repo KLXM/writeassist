@@ -1,0 +1,10 @@
+parameters:
+    level: 8
+    paths:
+        - .
+    excludePaths:
+        - assets
+        - lib/WriteAssistWidget.php
+    ignoreErrors:
+        - '#Instantiated class FriendsOfREDAXO\\WriteAssist\\WriteAssistWidget not found#'
+        - '#Call to method .* on an unknown class FriendsOfREDAXO\\WriteAssist\\WriteAssistWidget#'

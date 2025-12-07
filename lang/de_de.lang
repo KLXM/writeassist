@@ -1,0 +1,158 @@
+# WriteAssist AddOn
+writeassist_title = WriteAssist
+writeassist_translator = Übersetzer
+writeassist_improver = Textverbesserung
+writeassist_generator = KI-Generator
+writeassist_coder = Code-Assistent
+writeassist_settings = Einstellungen
+writeassist_help = Hilfe
+
+# Widget
+writeassist_widget_title = Schreibhilfe
+writeassist_tab_translate = Übersetzen
+writeassist_tab_improve = Verbessern
+writeassist_enter_text = Text eingeben...
+writeassist_enter_text_improve = Text zur Überprüfung eingeben...
+writeassist_translate = Übersetzen
+writeassist_check = Prüfen
+writeassist_improve = Prüfen
+writeassist_copy = Kopieren
+writeassist_clear = Löschen
+writeassist_swap = Tauschen
+writeassist_picky_mode = Strenger Modus
+writeassist_no_deepl_key = DeepL API-Schlüssel fehlt.
+writeassist_auto_detect = Auto-Erkennung
+
+# Translator Page
+writeassist_source_language = Quellsprache
+writeassist_target_language = Zielsprache
+writeassist_source_text = Quelltext
+writeassist_translated_text = Übersetzung
+writeassist_corrected_text = Korrigierter Text
+writeassist_usage_title = API-Nutzung
+writeassist_characters_used = Zeichen verwendet
+writeassist_no_api_key_warning = Kein DeepL API-Schlüssel konfiguriert. Bitte in den <a href="{0}">Einstellungen</a> hinterlegen.
+
+# Improver Page
+writeassist_improver_description = Prüfe deinen Text auf Grammatik, Rechtschreibung und Stil mit LanguageTool (kostenlos).
+writeassist_language = Sprache
+writeassist_apply_corrections = Korrekturen anwenden
+writeassist_corrections = Gefundene Fehler
+writeassist_no_errors = Keine Fehler gefunden ✓
+writeassist_issues_found = Problem(e) gefunden
+writeassist_corrections_applied = Korrekturen angewendet
+
+# Settings
+writeassist_deepl_settings = DeepL Übersetzung
+writeassist_api_key = DeepL API-Schlüssel
+writeassist_api_key_notice = Kostenloser API-Schlüssel: <a href="https://www.deepl.com/pro-api" target="_blank">deepl.com/pro-api</a> (500.000 Zeichen/Monat gratis)
+writeassist_api_type = API-Typ
+writeassist_api_type_free = Free API
+writeassist_api_type_pro = Pro API
+writeassist_api_type_notice = Free API nutzt api-free.deepl.com, Pro API nutzt api.deepl.com
+
+writeassist_languagetool_settings = LanguageTool (Optional)
+writeassist_languagetool_url = Eigene API-URL
+writeassist_languagetool_url_notice = Nur für selbst-gehostete LanguageTool-Instanzen. Leer lassen für öffentliche API.
+writeassist_languagetool_api_key = API-Schlüssel
+writeassist_languagetool_api_key_notice = Optional für Premium-Features. LanguageTool funktioniert auch ohne API-Schlüssel.
+writeassist_languagetool_username = Benutzername
+
+writeassist_ignore_settings = Ignorierte Wörter
+writeassist_ignore_words = Wörter ignorieren
+writeassist_ignore_words_notice = Ein Wort pro Zeile. Diese Wörter werden bei der Rechtschreibprüfung ignoriert (z.B. Eigennamen, Firmennamen, Fachbegriffe).
+
+# API Messages
+writeassist_translation_success = Übersetzung erfolgreich!
+writeassist_improvement_success = Prüfung abgeschlossen!
+writeassist_no_api_key = Kein API-Schlüssel konfiguriert
+writeassist_translation_failed = Übersetzung fehlgeschlagen
+writeassist_improvement_failed = Prüfung fehlgeschlagen
+
+# Gemini Settings
+writeassist_gemini_settings = Google Gemini (KI-Textgenerierung)
+writeassist_gemini_api_key = Gemini API-Schlüssel
+writeassist_gemini_api_key_notice = Kostenloser API-Schlüssel: <a href="https://aistudio.google.com/apikey" target="_blank">Google AI Studio</a> (kostenlos mit Nutzungslimits)
+writeassist_gemini_model = Standard-Modell
+writeassist_gemini_model_notice = Wähle das Standard-Modell für die Textgenerierung
+
+# Generator Page
+writeassist_generator_description = Generiere Texte mit Google Gemini AI. Kostenlos mit API-Schlüssel von Google AI Studio.
+writeassist_no_gemini_key = Kein Gemini API-Schlüssel konfiguriert.
+writeassist_no_gemini_key_warning = Kein Gemini API-Schlüssel konfiguriert. Bitte in den <a href="{0}">Einstellungen</a> hinterlegen.
+writeassist_prompt = Prompt
+writeassist_prompt_placeholder = Beschreibe was du generieren möchtest...
+writeassist_system_prompt = System-Prompt (optional)
+writeassist_system_prompt_placeholder = Definiere die Rolle oder den Kontext der KI...
+writeassist_model = Modell
+writeassist_temperature = Kreativität
+writeassist_max_tokens = Maximale Länge
+writeassist_generate = Generieren
+writeassist_generated_text = Generierter Text
+writeassist_generation_failed = Generierung fehlgeschlagen
+
+# Generator UI
+writeassist_generator_input = Eingabe
+writeassist_generator_output = Ausgabe
+writeassist_action = Aktion
+writeassist_action_rewrite = Text umschreiben
+writeassist_action_summarize = Zusammenfassen
+writeassist_action_expand = Erweitern
+writeassist_action_generate = Text generieren
+writeassist_action_custom = Eigener Prompt
+writeassist_style = Stil
+writeassist_style_professional = Professionell
+writeassist_style_casual = Locker
+writeassist_style_simple = Einfach
+writeassist_style_formal = Formell
+writeassist_style_creative = Kreativ
+writeassist_style_concise = Prägnant
+writeassist_type = Typ
+writeassist_type_paragraph = Absatz
+writeassist_type_headline = Überschriften
+writeassist_type_bullets = Aufzählung
+writeassist_type_intro = Einleitung
+writeassist_type_meta = Meta-Description
+writeassist_input_text = Eingabetext
+writeassist_input_placeholder = Text eingeben oder Thema beschreiben...
+writeassist_output_placeholder = Generierter Text erscheint hier...
+writeassist_use_as_input = Als Eingabe verwenden
+writeassist_generating = Generiere...
+writeassist_tokens_used = Token verwendet
+
+# Code Generator (Admin only)
+writeassist_coder = Code-Generator
+writeassist_code_input = Code-Eingabe
+writeassist_code_output = Code-Ausgabe
+writeassist_code_generate = Code generieren
+writeassist_code_explain = Code erklären
+writeassist_code_improve = Code verbessern
+writeassist_code_language = Programmiersprache
+writeassist_code_input_label = Beschreibung oder Code
+writeassist_code_input_placeholder = Beschreibe was der Code machen soll...
+writeassist_code_generate_placeholder = Beschreibe was der Code machen soll, z.B.: "Eine PHP-Funktion die prüft ob eine E-Mail-Adresse gültig ist"
+writeassist_code_paste_placeholder = Füge hier deinen Code ein...
+writeassist_code_output_placeholder = Generierter Code erscheint hier...
+writeassist_code_ask = Frage stellen
+writeassist_code_question = Deine Frage
+writeassist_code_question_placeholder = Was möchtest du wissen? z.B.: "Wie erstelle ich ein REDAXO Modul?"
+writeassist_code_ask_code_placeholder = Optional: Code einfügen auf den sich die Frage bezieht...
+writeassist_enter_question = Bitte stelle eine Frage
+
+# Module Generator
+writeassist_module_generate = REDAXO Modul generieren
+writeassist_module_placeholder = Beschreibe das Modul, z.B.: "Bild-Text-Modul mit Überschrift, Text und Bild rechts oder links"
+writeassist_module_use_mform = MForm für Eingabeformular verwenden
+writeassist_module_use_mblock = MBlock für wiederholbare Elemente verwenden
+writeassist_code_security_title = Sicherheitshinweis
+writeassist_code_security_notice = Der Code-Generator sendet Projekt-Metadaten (REDAXO-Version, installierte AddOns, Tabellennamen) an Google Gemini. <strong>Gib niemals sensible Daten ein:</strong> Keine Passwörter, API-Keys, persönliche Daten, Bankdaten oder vertrauliche Geschäftsinformationen. Die Verbindung erfolgt über HTTPS, aber die Daten werden von Google verarbeitet.
+
+# Integration Settings
+writeassist_integration_settings = Integrationen
+writeassist_enable_infocenter_widget = Info Center Widget aktivieren
+writeassist_enable_infocenter_widget_notice = Zeigt das WriteAssist Widget im Info Center an (falls info_center AddOn installiert)
+writeassist_enable_tinymce_plugin = TinyMCE Plugin aktivieren
+writeassist_enable_tinymce_plugin_notice = Aktiviert das DeepL Übersetzungs-Plugin im TinyMCE Editor (falls TinyMCE AddOn installiert)
+writeassist_yes = Ja
+writeassist_no = Nein
+writeassist_code_context_info = REDAXO-Kontext wird automatisch mitgesendet (Version, AddOns, Tabellenstruktur - keine Inhalte oder Zugangsdaten).

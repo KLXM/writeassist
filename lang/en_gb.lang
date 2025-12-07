@@ -1,0 +1,158 @@
+# WriteAssist AddOn
+writeassist_title = WriteAssist
+writeassist_translator = Translator
+writeassist_improver = Text Improvement
+writeassist_generator = AI Generator
+writeassist_coder = Code Assistant
+writeassist_settings = Settings
+writeassist_help = Help
+
+# Widget
+writeassist_widget_title = Writing Assistant
+writeassist_tab_translate = Translate
+writeassist_tab_improve = Improve
+writeassist_enter_text = Enter text...
+writeassist_enter_text_improve = Enter text to check...
+writeassist_translate = Translate
+writeassist_check = Check
+writeassist_improve = Check
+writeassist_copy = Copy
+writeassist_clear = Clear
+writeassist_swap = Swap
+writeassist_picky_mode = Strict mode
+writeassist_no_deepl_key = DeepL API key missing.
+writeassist_auto_detect = Auto-detect
+
+# Translator Page
+writeassist_source_language = Source Language
+writeassist_target_language = Target Language
+writeassist_source_text = Source Text
+writeassist_translated_text = Translation
+writeassist_corrected_text = Corrected Text
+writeassist_usage_title = API Usage
+writeassist_characters_used = characters used
+writeassist_no_api_key_warning = No DeepL API key configured. Please add one in the <a href="{0}">settings</a>.
+
+# Improver Page
+writeassist_improver_description = Check your text for grammar, spelling and style with LanguageTool (free).
+writeassist_language = Language
+writeassist_apply_corrections = Apply corrections
+writeassist_corrections = Found issues
+writeassist_no_errors = No errors found ✓
+writeassist_issues_found = issue(s) found
+writeassist_corrections_applied = Corrections applied
+
+# Settings
+writeassist_deepl_settings = DeepL Translation
+writeassist_api_key = DeepL API Key
+writeassist_api_key_notice = Free API Key: <a href="https://www.deepl.com/pro-api" target="_blank">deepl.com/pro-api</a> (500,000 chars/month free)
+writeassist_api_type = API Type
+writeassist_api_type_free = Free API
+writeassist_api_type_pro = Pro API
+writeassist_api_type_notice = Free API uses api-free.deepl.com, Pro API uses api.deepl.com
+
+writeassist_languagetool_settings = LanguageTool (Optional)
+writeassist_languagetool_url = Custom API URL
+writeassist_languagetool_url_notice = Only for self-hosted LanguageTool instances. Leave empty for public API.
+writeassist_languagetool_api_key = API Key
+writeassist_languagetool_api_key_notice = Optional for premium features. LanguageTool works without an API key.
+writeassist_languagetool_username = Username
+
+writeassist_ignore_settings = Ignored Words
+writeassist_ignore_words = Ignore words
+writeassist_ignore_words_notice = One word per line. These words will be ignored during spell checking (e.g. proper names, company names, technical terms).
+
+# API Messages
+writeassist_translation_success = Translation successful!
+writeassist_improvement_success = Check completed!
+writeassist_no_api_key = No API key configured
+writeassist_translation_failed = Translation failed
+writeassist_improvement_failed = Check failed
+
+# Gemini Settings
+writeassist_gemini_settings = Google Gemini (AI Text Generation)
+writeassist_gemini_api_key = Gemini API Key
+writeassist_gemini_api_key_notice = Free API Key: <a href="https://aistudio.google.com/apikey" target="_blank">Google AI Studio</a> (free with usage limits)
+writeassist_gemini_model = Default Model
+writeassist_gemini_model_notice = Choose the default model for text generation
+
+# Generator Page
+writeassist_generator_description = Generate texts with Google Gemini AI. Free with API key from Google AI Studio.
+writeassist_no_gemini_key = No Gemini API key configured.
+writeassist_no_gemini_key_warning = No Gemini API key configured. Please add one in the <a href="{0}">settings</a>.
+writeassist_prompt = Prompt
+writeassist_prompt_placeholder = Describe what you want to generate...
+writeassist_system_prompt = System Prompt (optional)
+writeassist_system_prompt_placeholder = Define the role or context for the AI...
+writeassist_model = Model
+writeassist_temperature = Creativity
+writeassist_max_tokens = Maximum Length
+writeassist_generate = Generate
+writeassist_generated_text = Generated Text
+writeassist_generation_failed = Generation failed
+
+# Generator UI
+writeassist_generator_input = Input
+writeassist_generator_output = Output
+writeassist_action = Action
+writeassist_action_rewrite = Rewrite text
+writeassist_action_summarize = Summarize
+writeassist_action_expand = Expand
+writeassist_action_generate = Generate text
+writeassist_action_custom = Custom prompt
+writeassist_style = Style
+writeassist_style_professional = Professional
+writeassist_style_casual = Casual
+writeassist_style_simple = Simple
+writeassist_style_formal = Formal
+writeassist_style_creative = Creative
+writeassist_style_concise = Concise
+writeassist_type = Type
+writeassist_type_paragraph = Paragraph
+writeassist_type_headline = Headlines
+writeassist_type_bullets = Bullet points
+writeassist_type_intro = Introduction
+writeassist_type_meta = Meta description
+writeassist_input_text = Input text
+writeassist_input_placeholder = Enter text or describe topic...
+writeassist_output_placeholder = Generated text will appear here...
+writeassist_use_as_input = Use as input
+writeassist_generating = Generating...
+writeassist_tokens_used = tokens used
+
+# Code Generator (Admin only)
+writeassist_coder = Code Generator
+writeassist_code_input = Code Input
+writeassist_code_output = Code Output
+writeassist_code_generate = Generate code
+writeassist_code_explain = Explain code
+writeassist_code_improve = Improve code
+writeassist_code_language = Programming language
+writeassist_code_input_label = Description or code
+writeassist_code_input_placeholder = Describe what the code should do...
+writeassist_code_generate_placeholder = Describe what the code should do, e.g.: "A PHP function that validates an email address"
+writeassist_code_paste_placeholder = Paste your code here...
+writeassist_code_output_placeholder = Generated code will appear here...
+writeassist_code_ask = Ask a question
+writeassist_code_question = Your question
+writeassist_code_question_placeholder = What do you want to know? e.g.: "How do I create a REDAXO module?"
+writeassist_code_ask_code_placeholder = Optional: Paste code related to your question...
+writeassist_enter_question = Please enter a question
+
+# Module Generator
+writeassist_module_generate = Generate REDAXO module
+writeassist_module_placeholder = Describe the module, e.g.: "Image-text module with headline, text and image on left or right"
+writeassist_module_use_mform = Use MForm for input form
+writeassist_module_use_mblock = Use MBlock for repeatable elements
+writeassist_code_security_title = Security Notice
+writeassist_code_security_notice = The code generator sends project metadata (REDAXO version, installed addons, table names) to Google Gemini. <strong>Never enter sensitive data:</strong> No passwords, API keys, personal data, bank details or confidential business information. Connection is via HTTPS, but data is processed by Google.
+writeassist_code_context_info = REDAXO context is automatically included (version, addons, table structure - no content or credentials).
+
+# Integration Settings
+writeassist_integration_settings = Integrations
+writeassist_enable_infocenter_widget = Enable Info Center Widget
+writeassist_enable_infocenter_widget_notice = Shows the WriteAssist widget in Info Center (if info_center addon is installed)
+writeassist_enable_tinymce_plugin = Enable TinyMCE Plugin
+writeassist_enable_tinymce_plugin_notice = Enables the DeepL translation plugin in TinyMCE editor (if TinyMCE addon is installed)
+writeassist_yes = Yes
+writeassist_no = No

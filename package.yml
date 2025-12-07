@@ -1,0 +1,41 @@
+package: writeassist
+version: '1.0.0'
+author: Friends Of REDAXO
+supportpage: https://github.com/FriendsOfREDAXO/writeassist
+
+page:
+    title: 'translate:writeassist_title'
+    perm: writeassist[]
+    icon: rex-icon fa-feather
+    subpages:
+        translator:
+            title: 'translate:writeassist_translator'
+            icon: rex-icon fa-language
+        improver:
+            title: 'translate:writeassist_improver'
+            icon: rex-icon fa-spell-check
+        generator:
+            title: 'translate:writeassist_generator'
+            icon: rex-icon fa-wand-magic-sparkles
+        coder:
+            title: 'translate:writeassist_coder'
+            icon: rex-icon fa-regular fa-keyboard
+            perm: admin
+        settings:
+            title: 'translate:writeassist_settings'
+            icon: rex-icon fa-cogs
+            perm: admin
+        help:
+            title: 'translate:writeassist_help'
+            icon: rex-icon fa-question-circle
+            subPath: README.md
+            itemClass: pull-right
+
+requires:
+    redaxo: '^5.13'
+    php:
+        version: '^8.2'
+
+default_config:
+    enable_infocenter_widget: 1
+    enable_tinymce_plugin: 1
